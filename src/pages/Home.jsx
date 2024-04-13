@@ -1,6 +1,6 @@
 import React from 'react'
 import {motion} from "framer-motion"
-import { desktop, logoHeader500 } from '../assets'
+import { desktop, logoBlackWhitePng, logoHeader500 } from '../assets'
 import { links, servicos } from '../sample'
 import MyServices from '../components/MyServices'
 import Apresentacao from '../components/quemsoueu/Apresentacao'
@@ -33,7 +33,7 @@ const Home = () => {
           className='md:w-[70%] flex-col gap-3 relative'>
             <motion.h1
             variants={animatedKey}
-            className='font-RubikMonoOne text-indigo-200 text-[1.20rem] md:text-[1.60rem]'>Meu nome é <span className='text-[1.60rem] md:text-[2rem] bg-gradient-to-r
+            className='font-RubikMonoOne text-indigo-200  text-[1.20rem] md:text-[1.60rem]'>Meu nome é <span className='text-[1.60rem] md:text-[2rem] bg-gradient-to-r
               from-indigo-700 to-indigo-500 inline-block text-transparent bg-clip-text'>Victor</span></motion.h1>
 
             <motion.h2
@@ -45,9 +45,9 @@ const Home = () => {
             variants={animatedKey}
 
             className='font-alata text-indigo-300 text-[1rem] md:text-[1.3rem]'>
-              Com proficiência em <span className='md:text-[1.5rem] font-bold text-indigo-700 uppercase'>desenvolvimento web</span>, forneço layouts de sites personalizados e de qualidade para atender às
-              necessidades do seu <span className='md:text-[1.5rem] text-indigo-700 font-bold uppercase'>negócio</span>. Todas intuitivas e responsivas
-              para o <span className='md:text-[1.5rem] font-bold text-indigo-700 uppercase'>celular</span>, estou aqui para impulsionar
+              Com proficiência em <span className='md:text-[1.5rem] font-bold text-indigo-700 dark:text-indigo-500  uppercase'>desenvolvimento web</span>, forneço layouts de sites personalizados e de qualidade para atender às
+              necessidades do seu <span className='md:text-[1.5rem] text-indigo-700 dark:text-indigo-500 font-bold uppercase'>negócio</span>. Todas intuitivas e responsivas
+              para o <span className='md:text-[1.5rem] font-bold text-indigo-700 dark:text-indigo-500 uppercase'>celular</span>, estou aqui para impulsionar
               sua presença online de maneira eficiente e profissional.</motion.p>
 
 
@@ -65,7 +65,7 @@ const Home = () => {
               
               className='w-[50%] md:w-auto rounded-2xl bg-indigo-700 hover:bg-indigo-800 active:bg-indigo-900
               cursor-pointer font-alata md:text-[1.3rem] md:p-4 p-2
-              text-[1rem] text-indigo-200
+              text-[1rem] text-indigo-200 
               '><Link to="/contato">Me mande uma mensagem!</Link></motion.button>
               
               <motion.button
@@ -96,7 +96,7 @@ const Home = () => {
                   visible: {opacity: 1, x: 0}
                 }}              
               >
-                <FaHtml5 className=' drop-shadow-glow text-indigo-700 w-full'/>
+                <FaHtml5 className=' drop-shadow-glow text-indigo-700 dark:text-indigo-500 w-full'/>
               </motion.div>
               <motion.div
                             variants={{
@@ -104,7 +104,7 @@ const Home = () => {
                               visible: {opacity: 1, x: 0}
                             }}   
               >
-              <FaCss3 className=' drop-shadow-glow text-indigo-700 w-full'/>
+              <FaCss3 className=' drop-shadow-glow text-indigo-700 dark:text-indigo-500 w-full'/>
               </motion.div>
               <motion.div
                             variants={{
@@ -112,7 +112,7 @@ const Home = () => {
                               visible: {opacity: 1, x: 0}
                             }}   
               >
-              <FaNodeJs className=' drop-shadow-glow text-indigo-700 w-full'/> 
+              <FaNodeJs className=' drop-shadow-glow text-indigo-700 dark:text-indigo-500 w-full'/> 
               </motion.div>
               <motion.div
                             variants={{
@@ -120,7 +120,7 @@ const Home = () => {
                               visible: {opacity: 1, x: 0}
                             }}   
               >
-              <FaReact className=' drop-shadow-glow text-indigo-700 w-full'/> 
+              <FaReact className=' drop-shadow-glow text-indigo-700 dark:text-indigo-500 w-full'/> 
               </motion.div>
               <motion.div
                             variants={{
@@ -128,7 +128,7 @@ const Home = () => {
                               visible: {opacity: 1, x: 0}
                             }}   
               >
-              <SiVite className=' drop-shadow-glow text-indigo-700 w-full'/> 
+              <SiVite className=' drop-shadow-glow text-indigo-700 dark:text-indigo-500 w-full'/> 
               </motion.div>
               <motion.div
                             variants={{
@@ -136,7 +136,7 @@ const Home = () => {
                               visible: {opacity: 1, x: 0}
                             }}   
               >
-              <SiTailwindcss className=' drop-shadow-glow text-indigo-700 w-full'/>
+              <SiTailwindcss className=' drop-shadow-glow text-indigo-700 dark:text-indigo-500 w-full'/>
               </motion.div>
             </motion.div>
             
@@ -154,7 +154,7 @@ const Home = () => {
 
           className=' text-center items-center  absolute md:relative  flex justify-center md:w-[50%] bg-opacity-80 -z-10'>
             <img
-            className='size-fit blur-xl md:blur-0' src={logoHeader500} alt="" />
+            className='size-fit blur-xl md:blur-0 bg-indigo-700 rounded-full' src={logoBlackWhitePng} alt="Logo" />
 
             <div
             className='hidden md:block absolute font-RubikMonoOne bottom-[2rem] text-indigo-200 p-[1rem]
@@ -198,7 +198,7 @@ const Home = () => {
 
 
             <div className='flex-col p-4'>
-              <h1 className='text-[1.60rem] text-indigo-700 font-RubikMonoOne
+              <h1 className='text-[1.60rem] text-indigo-700 dark:text-indigo-400 font-RubikMonoOne
               '>Serviços:</h1>
               <p className='font-alata text-indigo-300 text-[1rem] md:text-[1.50rem]'>Posso montar seu site bonito e responsivo</p>
             </div>

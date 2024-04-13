@@ -47,7 +47,8 @@ const Porfolio = () => {
         
                     <Link to="/contato">
                       <button
-                        className='bg-slate-300 active:bg-slate-400 mt-[2rem] p-[1rem] font-RubikMonoOne text-[1rem] rounded-2xl text-indigo-700 w-full md:w-[100%]'>
+                        className='bg-slate-300 active:bg-slate-400 mt-[2rem] p-[1rem] font-RubikMonoOne
+                        text-[1rem] rounded-2xl text-indigo-700 w-full md:w-[100%] dark:text-indigo-900 dark:bg-indigo-500'>
                             Clique para ter um site do seu jeito
                       </button>
                     </Link>

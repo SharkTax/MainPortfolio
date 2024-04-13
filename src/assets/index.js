@@ -2,6 +2,8 @@ export { default as logoHeader} from "./images/svgLogoHeader.svg";
 export { default as logoHeader500} from "./images/svgLogoHeader500.svg";
 export { default as logoAlt} from "./images/svgLogoHeaderAlt.svg";
 export { default as logoAlt500} from "./images/svgLogoHeaderAlt500.svg";
+export { default as logoPngPurple } from "./images/pngLogoRasterizePurple.png"
+export { default as logoBlackWhitePng } from "./images/pngLogoAlt500.png"
 export { default as desktop} from "./images/desktop.jpg";
 export { default as shopCarsMain} from "./images/carShopMainpage.png";
 export { default as shopCarsMobileMain} from "./images/carshopMobile.png";

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link, Outlet, useLocation} from 'react-router-dom';
-import { logoHeader } from '../assets';
+import { logoHeader, logoBlackWhitePng } from '../assets';
 import {links} from "../sample"
 import DisplayHour from '../components/DisplayHour';
 
@@ -19,7 +19,7 @@ const MainLyout = () => {
           flex items-center justify-between flex-row'>
 
       
-            <img className=' h-[100%] ml-4 text-slate-900' src={logoHeader} alt="Logo" /> 
+            <img className='h-[80%] rounded-full mx-4 bg-indigo-700' src={logoBlackWhitePng} alt="Logo" /> 
             <h1 className='text-center w-[100%] text-[2rem]
             inline-block bg-gradient-to-r
             from-indigo-700 to-indigo-500 text-transparent bg-clip-text'>
@@ -77,8 +77,9 @@ const MainLyout = () => {
         <footer className='flex w-full h-[5vh] justify-between items-center fixed shadow-xl bg-gradient-to-r bottom-0
         from-zinc-900 to-zinc-950'>
         <div className='size-full md:w-auto font-extrabold font-RubikMonoOne flex items-center justify-between flex-row'>
-            <img className=' h-[100%] ml-4 text-slate-900' src={logoHeader} alt="" />
-            <h1 className='text-center mr-6 w-[100%] text-[2rem] text-indigo-700'>&copy;SharkT.</h1>
+            <img className=' h-[100%] ml-4 text-slate-900 rounded-full mx-4 bg-indigo-700' src={logoBlackWhitePng} alt="" />
+            <h1 className='text-center mr-6 w-[100%] text-[2rem] bg-gradient-to-r
+            from-indigo-700 to-indigo-500 text-transparent bg-clip-text'>&copy;SharkT.</h1>
           </div>
         </footer>
     </div>

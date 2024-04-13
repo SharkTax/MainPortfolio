@@ -68,8 +68,8 @@ const Apresentacao = () => {
                 <Link to="/contato">
                 <motion.button
                     variants={animateVar}
-                className='bg-slate-300 active:bg-slate-400 mt-[2rem] p-[.5rem] md:p-[1rem] font-RubikMonoOne
-                text-[.8rem] md:text-[1rem] rounded-2xl text-indigo-700 w-full md:w-[60%]'>
+                className='bg-slate-300 dark:bg-indigo-500 active:bg-slate-400 mt-[2rem] p-[.5rem] md:p-[1rem] font-RubikMonoOne
+                text-[.8rem] md:text-[1rem] rounded-2xl text-indigo-700 dark:text-indigo-900 w-full md:w-[60%]'>
                     Clique para ter um site do seu jeito
                 </motion.button>
                 </Link>

@@ -96,7 +96,7 @@ const ContactEmail = () => {
 
                 >Nome <input
             
-            className={`w-[100%] h-10 text-zinc-700 text-[.7rem] md:text-[1rem] ${ errorsValidate.name ? "bg-red-500" : "bg-slate-300"} rounded-2xl p-2`}
+            className={`w-[100%] h-10 dark:text-indigo-900 dark:bg-indigo-500 text-zinc-700 text-[.7rem] md:text-[1rem] ${ errorsValidate.name ? "bg-red-500" : "bg-slate-300"} rounded-2xl p-2`}
             
             type="text" name="user_name" /></motion.label>
             
@@ -109,7 +109,7 @@ const ContactEmail = () => {
             font-RubikMonoOne text-[1.5rem] text-indigo-200'
                 >Email <input
             
-            className={`w-[100%] h-10  text-zinc-700 rounded-2xl p-2 text-[.7rem] md:text-[1rem] ${ errorsValidate.email ? "bg-red-500" : "bg-slate-300"} `}
+            className={`w-[100%] h-10 dark:text-indigo-900 dark:bg-indigo-500 text-zinc-700 rounded-2xl p-2 text-[.7rem] md:text-[1rem] ${ errorsValidate.email ? "bg-red-500" : "bg-slate-300"} `}
             
             type="email" name="user_email" placeholder='Escreva um email valido' /></motion.label>
             
@@ -129,12 +129,12 @@ const ContactEmail = () => {
 
             <textarea
             
-            className={`w-[100%] min-h-[20vh] max-h-[20vh] text-[.7rem] md:text-[1rem] ${ errorsValidate.text ? "bg-red-500" : "bg-slate-300"} text-zinc-700 rounded-2xl p-2`}
+            className={`w-[100%] min-h-[20vh] max-h-[20vh] dark:text-indigo-900 dark:bg-indigo-500 text-[.7rem] md:text-[1rem] ${ errorsValidate.text ? "bg-red-500" : "bg-slate-300"} text-zinc-700 rounded-2xl p-2`}
 
             name="message" />
             <input
             
-            className='bg-slate-300 active:bg-slate-400 mt-[2rem] p-[1rem] font-RubikMonoOne text-[1rem] rounded-2xl text-indigo-700 w-full md:w-[50%]'
+            className='bg-slate-300 dark:text-indigo-900 dark:bg-indigo-500 active:bg-slate-400 mt-[2rem] p-[1rem] font-RubikMonoOne text-[1rem] rounded-2xl text-indigo-700 w-full md:w-[50%]'
 
             type="submit" value="Enviar" />
 

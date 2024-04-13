@@ -27,10 +27,10 @@ const DisplayHour = () => {
 
     return (
     <div className="absolute top-[105%] left-0 flex-col gap-3 mb-1 ml-2 items-center opacity-60">
-        <h1 className="text-indigo-700 font-alata tracking-wide text-2xl hidden md:block ">
+        <h1 className="text-indigo-700 dark:text-indigo-500 font-alata tracking-wide text-2xl hidden md:block ">
         {time.toLocaleTimeString()}
         </h1>
-        <div className="flex justify-around w-[150%] md:w-auto text-indigo-700">
+        <div className="flex justify-around w-[150%] md:w-auto text-indigo-700 dark:text-indigo-500">
             <span className="text-3xl"><Link to="https://github.com/SharkTax"><FaGithub/></Link></span>
             <span className="text-3xl"><Link to="https://www.linkedin.com/in/victor-pinheiro-709823237/"><FaLinkedin/></Link></span>
             <span className="text-3xl"><Link to="mailto:victorm.pinheiro15@gmail.com"><MdEmail/></Link></span>
