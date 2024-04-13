@@ -14,7 +14,7 @@ const MyServices = () => {
         <motion.ul
             variants={{
                 hidden: {opacity: 0, x: -75},
-                visible: {opacity: 1, x: 0, transition:{staggerChildren: 0.25}}
+                visible: {opacity: 1, x: 0}
             }}
 
             viewport={{once: true}}
@@ -25,14 +25,7 @@ const MyServices = () => {
             {
             servicos.map((item)=>{
                 return(
-                    <motion.li
-                    key={item.label}
-                    variants={{
-                        hidden: {opacity: 0, x: -75},
-                        visible: {opacity: 1, x: 0}
-                    }}
-                    
-                    className='size-[100%] '
+                    <li className='size-[100%] '
                     >
                         <div className='md:my-[2rem] h-[80%] bg-zinc-900 bg-opacity-80 p-2 rounded-2xl'>
                             <h1 className='font-RubikMonoOne text-2xl text-[1.2rem] text-indigo-500'>{item.label}</h1>
@@ -41,7 +34,7 @@ const MyServices = () => {
                         
 
 
-                    </motion.li>
+                    </li>
                 )
             })
             }
