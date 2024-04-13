@@ -13,7 +13,7 @@ const Home = () => {
 
   const animatedKey = {
     hidden: {opacity: 0, y: 75},
-    visible: {opacity: 1, y: 0, transition:{staggerChildren: 0.25}}
+    visible: {opacity: 1, y: 0, transition:{staggerChildren: 0.55}}
   }
 
   return (
