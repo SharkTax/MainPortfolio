@@ -6,5 +6,7 @@ Muitas vezes, precisei interromper meu fluxo de trabalho para resolver bugs desc
 
 Após dedicar aproximadamente uma semana e meia a esse projeto, alcancei o resultado desejado. Embora reconheça que o código possa parecer um tanto desorganizado, reflete os obstáculos que superei para alcançar a funcionalidade esperada. Estou ansioso para compartilhar meu trabalho e continuar aprimorando minhas habilidades enquanto avanço em minha carreira no desenvolvimento web.
 
+O link para meu site: https://sharktax.netlify.app
+
 
 ![Print do meu trabalho](./recordScreen.png)
